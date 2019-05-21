@@ -1,0 +1,299 @@
+body{
+    font-family: "promt" sans-serif;
+    background-size: cover;
+}
+
+
+.header-wrapper {
+    margin: auto;
+    display: grid;
+    grid-template-columns:30% 1fr
+ 
+}
+.logo .ddial_logo{
+    margin-top:10px;
+    width: 150px;
+}
+
+.header-nav {
+    margin:0 auto;
+    padding: 15px 20px;
+    margin-top:10px;
+}
+.header-nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+.header-nav a{
+    color: black;
+    letter-spacing: .1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-nav a:hover{
+    cursor: pointer;
+    color: #0003;
+}
+.list-item{
+    margin-left: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.banner-wrapper{
+    height: 710px;
+    margin-top: -20px;
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.1))
+    border-box,url(https://source.unsplash.com/1600x900/?arch)
+    no-repeat center center;
+    display: grid;
+    align-content:center;
+}
+.banner-wrapper h1 {
+    margin: auto;
+    text-transform:capitalize;
+    font-size: 70px;
+}
+.banner-wrapper p{
+     margin: auto;
+    text-transform:capitalize;
+    font-size: 40px;
+}
+
+.burger-icon{
+    display: none;
+}
+.buttons button#next {
+    position: absolute;
+    top: 40%;
+    right: 15px;
+  }
+  .buttons button#prev {
+    position: absolute;
+    top: 40%;
+    left: 15px;
+  }
+  .buttons button#prev {
+    position: absolute;
+    top: 40%;
+    left: 520px;
+  }
+  .buttons button {
+    border: 2px solid rgb(187, 7, 7);
+    background-color: transparent;
+    color: rgb(182, 10, 10);
+    cursor: pointer;
+    padding: 13px 15px;
+    border-radius: 50%;
+    outline: none;
+  }
+  .buttons button:hover {
+    background-color: rgb(113, 21, 199);
+    color: #333;
+  }
+  .main-wrapper{
+      margin:auto;
+      margin-top: 10px;
+  }
+.sub-wrapper{
+    margin: 10px;
+    width: fit-content;
+}
+
+.footer{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: minmax(20px, 300px) minmax(20px, 300px) minmax(20px, 300px) minmax(20px, 300px);
+    grid-template-columns:auto 1fr 1fr 1fr 1fr;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-nav {
+    font-size: 20px;
+    margin-left: -39px;
+}
+.footer-nav a{
+    padding:5px;
+    color: white;
+}
+.footer-nav a:hover{
+    font-size: 25px;
+}
+.footer-nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+.copyright{
+    display: grid;
+    margin: auto;
+    text-align: center;
+    grid-column: 1/5;
+
+}
+
+/*--tablet media query--*/
+
+
+@media screen and (max-width:950px){
+    .banner-wrapper{
+    margin-top: 0px;
+    display: grid;
+    align-content:center;
+}
+    .banner-wrapper h1 {
+    margin: auto;
+    text-transform:capitalize;
+    font-size: 35px;
+}
+    .banner-wrapper p{
+     margin: auto;
+    text-transform:capitalize;
+    font-size: 20px;
+}
+    .header-nav{
+        grid-column:1/5;
+        text-align: center;
+        margin: 0;
+        padding:0;
+    }
+    .logo{
+        grid-column:1/5;
+        text-align: center;
+    } 
+    .footer{
+        font-size: 14px;
+        
+        
+    }
+    .footer-logo{
+    }
+    .footer-nav{
+        font-size: 10px;
+        width: 150px
+        
+    }
+    
+    .contact{
+        font-size: 10px;
+        margin-left: -10px;
+
+    }
+    .address{
+        font-size: 10px;
+        padding-left:10px;
+    }
+    .copyright{
+        display: grid;
+        margin:10px 150px;
+        text-align: center;
+        grid-column: 1/-1;
+        
+       }
+}
+
+/*mobile media query*/
+
+@media screen and ( max-width:650px){
+    .logo{
+        width: 200px;
+        grid-column:1/3;
+    }
+    .nav-items{
+        grid-column:1/-1;
+        text-align: center;
+        margin: 0;
+    }
+    .header-wrapper ul{
+        padding: 0;
+        margin: 0;
+    }
+    .header-wrapper ul li{
+        display: block;
+    }
+    .burger-icon{
+        display: inline-block;
+        justify-self:end;
+        grid-column: -1/-1;
+        border: 2px solid #333;
+        color: #333;
+        padding: 10px;
+        font-weight: bold;
+        border-radius:4px;
+        height: 20px;
+        
+    }
+    
+    .burger-icon:hover{
+        cursor:pointer;
+        }
+    .banner-wrapper{
+        height: 400px;
+    }
+    .footer{
+        margin: auto;
+        padding:0;
+    }
+    .contact{
+        margin-left: 40px;
+        font-size: 10px;
+        grid-area: 1/1
+    }
+    .address{
+        width: 200px;
+        font-size: 10px;
+        margin-left:20px;
+        grid-area: 1/-1;
+    }
+    .copyright{
+        text-align: center;
+        width: 400px;
+        font-size: 10px;
+        margin: auto
+    }
+    .footer-logo{
+        display: none;
+    }
+    .footer-nav{
+        display: none;
+    }
+    .mobile-show{
+        display: block;
+    }
+    .mobile-hide{
+        display: none;
+    }
+}
+
+    /*---mobile media query for 320 below ---*/
+@media screen and ( max-width:340px){
+    .button{
+        margin-top: 320px
+    }
+    .footer > div{
+        margin-right:-10px;
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
