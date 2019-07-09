@@ -42,7 +42,7 @@ body{
 .banner-wrapper{
     height: 710px;
     margin-top: -20px;
-    background: url(../images/arch.jpeg);
+    background: url(/images/banner/bnn.jpg);
     display: grid;
     align-content:center;
 }
@@ -72,6 +72,19 @@ body{
 
 .heading{
     text-align: center;
+}
+
+.main-content{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 600px 400px;
+}
+.design_right{
+    border-radius: 20%;
+}
+.design_left_text{
+    margin-left: 100px;
 }
 
 .grid{
@@ -231,8 +244,6 @@ body{
         font-size: 14px;
         
         
-    }
-    .footer-logo{
     }
     .footer-nav{
         font-size: 10px;
