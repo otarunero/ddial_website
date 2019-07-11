@@ -96,6 +96,15 @@ background-color:#e3f2fd
     margin-top: 10px;
     font-weight: 300;
   }
+
+  /*-----footer--------*/
+  .container-fluid{
+    background-color:#2e668e;
+}
+.text{
+    margin-top: 300px;
+    color: black;
+}
   
   @media (min-width: 576px) {
 
@@ -142,13 +151,5 @@ background-color:#e3f2fd
 
 
    
-  /*-----footer--------*/
-  .container-fluid{
-      background-color:#e3f2fd;
-  }
-  .text{
-      margin-top: 300px;
-      color: black;
-  }
 
   
