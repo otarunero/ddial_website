@@ -13,3 +13,4 @@ $(document).ready(function () {
 	  $article.addClass('grow fadeIn');
 	});
   });
+  
