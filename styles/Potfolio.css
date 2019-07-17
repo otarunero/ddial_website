@@ -106,6 +106,7 @@ body{
     display: inline-block;
 }
 
+
 .gallery-block.compact-gallery .item .description{
   display: grid;
     position: absolute;
@@ -136,7 +137,7 @@ body{
   margin-top: 10px;
   font-weight: 300;
 }
-/*potfolio gallery*/
+/* potfolio gallery*/
 
 
 @media (min-width: 576px) {
