@@ -59,21 +59,43 @@ body{
     transition:0.2s;
   }
   
-  /*--banner goes here--*/
-  .banner-wrapper{
-    height:70px;
-    background-color: rgb(161, 179, 189);
+
+  * {
+    margin:0px;
+    padding:0px;
   }
-  .banner-wrapper > H2{
-    font-size: 40PX;
-    text-align: center;
-    margin: auto;
+  *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing: border-box; }
+  
+  .clearfix:before, .clearfix:after { display: table; content: ''; }
+  .clearfix:after { clear: both; }
+  
+  
+  body {
+    background: #ffffff;
+    color: #333;
+    font-weight: normal;
+    font-size: 1em;
+    font-family: 'Roboto', Arial, sans-serif;
   }
   
+  input:focus, textarea:focus, keygen:focus, select:focus {
+    outline: none;
+  }
+  ::-moz-placeholder {
+    color: #666;
+    font-weight: 300;
+    opacity: 1;
+  }
   
-  /*--banner goes here--*/
+  ::-webkit-input-placeholder {
+    color: #666;
+    font-weight: 300;
+  }
   
-  
+  .address p{
+    font-weight: 300;
+  }
+
   /* Footer */
   @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css') ;
   section {
