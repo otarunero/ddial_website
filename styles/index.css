@@ -65,11 +65,21 @@ body{
   margin-top: auto;
 }
 .banner-text{
-  margin-top:15rem;
+  margin:16rem;
+  color: rgb(0, 0, 0);
+  text-shadow:  0 0 5px #b7c4cc, 0 0 5px #e3edf0;
 }
+.banner-text:hover{
+  color: rgb(255, 255, 255);
+  text-shadow:  0 0 5px #383d41, 0 0 5px #7c646d;
+}
+
 /*
 
 */
+.service{
+  min-width: 300px;
+}
 
 /*potfolio gallery*/
 .gallery-block{
@@ -202,6 +212,9 @@ section .section-title {
 }
 #footer ul.quick-links li:hover a i {
     font-weight: 700;
+}
+.text-green{
+  color: rgb(26, 74, 119) !important; 
 }
 @media (max-width:767px){
 	#footer h5 {

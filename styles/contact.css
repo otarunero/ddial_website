@@ -91,7 +91,11 @@ body{
     color: #666;
     font-weight: 300;
   }
-  
+
+  .contact{
+    margin-bottom: 70px;
+  }
+
   .address p{
     font-weight: 300;
   }
@@ -162,7 +166,9 @@ body{
   #footer ul.quick-links li:hover a i {
       font-weight: 700;
   }
-  
+  .text-green{
+    color: rgb(26, 74, 119) !important; 
+  }
   @media (max-width:767px){
       #footer h5 {
       padding-left: 0;
