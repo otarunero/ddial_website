@@ -248,10 +248,12 @@ section .section-title {
       height: 300px;
     }
     .banner-text{
-      margin-top: 6rem;
+      margin:40px;
+      color: rgb(0, 0, 0);
+      text-shadow:  0 0 5px #b7c4cc, 0 0 5px #e3edf0;
     }
-    .banner-text, h3, p{
-      font-size: 25px;
+    .banner-text, h3, h4{
+      font-size: 15px;
     }
     
     .card-body-mobile{
