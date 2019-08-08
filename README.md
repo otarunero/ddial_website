@@ -6,3 +6,8 @@ Thanks, Otaru jeremiah.
 
 DDIAL website is a Commercial Website for an architectural and Interior Design Firm.
 
+1. Fully responsive down to mobile w/ Bootstrap frontend
+2. SEO ready
+3. A contact form that sends an email to your email(s) of choice and to DDIAL email for easy reference
+4. Work page gallery powered by Bootstrap
+
