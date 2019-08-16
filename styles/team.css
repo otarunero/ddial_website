@@ -92,6 +92,10 @@ body{
         color: #2e668e;
         text-transform: uppercase;
     }
+    .image{
+      max-height: 300px;
+      max-width: 300px;
+    }
     .details{
         padding-left: 40px;
     }
