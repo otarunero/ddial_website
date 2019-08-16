@@ -169,47 +169,64 @@ body{
   .text-green{
     color: rgb(26, 74, 119) !important; 
   }
+  
+  
+  @media (max-width: 992px) {
+    .mobile-show{
+      height: 300px;
+    }
+    .banner-text{
+      margin-top: 6rem;
+    }
+    .banner-text, h3, p{
+      font-size: 20px;
+    }
+    .card-body-mobile{
+      height: auto;
+    }
+    .card-body-mobile, h5, p{
+      font-size: 10px;
+    }
+    .mobile-shw{
+      display: none;
+    }
+    .ddial_logo{
+      width: 300px;
+      }
+    .container .Quick_links{
+      padding-left: 75px;
+    }
+   }
+   
   @media (max-width:767px){
       #footer h5 {
       padding-left: 0;
       border-left: transparent;
       padding-bottom: 0px;
       margin-bottom: 10px;
+    }
+    .container .Quick_links{
+      padding-left: 125px;
+    }
   }
+  @media (max-width:603px){
+  .container .Quick_links{
+    padding-left: 108px;
   }
-  
-  
-    @media (max-width: 990px) {
-      .mobile-show{
-        height: 300px;
-      }
-      .banner-text{
-        margin-top: 6rem;
-      }
-      .banner-text, h3, p{
-        font-size: 20px;
-      }
-      .card-body-mobile{
-        height: auto;
-      }
-      .card-body-mobile, h5, p{
-        font-size: 10px;
-      }
-      .mobile-shw{
-        display: none;
-      }
-      .ddial_logo{
-        width: 300px;
-        }
-     }
-     @media (max-width: 560px) {
-      .card-body-mobile{
-        height: auto;
-      }
-      .card-body-mobile, h5, p{
-        font-size: 20px;
-      }
-     }
+}
+
+    @media (max-width: 560px) {
+    .card-body-mobile{
+      height: auto;
+    }
+    .card-body-mobile, h5, p{
+      font-size: 20px;
+    }
+    .container .Quick_links{
+      padding-left: 0%;
+    }
+  }
+
   
   
      
