@@ -150,17 +150,12 @@ body{
   text-align: center;
     
 }
-.missio h5{
-  text-align: center;
-  font-weight: 400;
-  font-size: 150%;
-  max-width: 100%;
-
-}
 .mission h5{
   font-size: 150%;
   color: #185886 !important;
   font: italic;
+  text-align: center;
+  font-weight: 400;
   width: 100%;
   opacity: 0;
   white-space: pre-line;
@@ -406,11 +401,33 @@ section .section-title {
   .container .Quick_links{
     padding-left: 105px;
   }
+  .banner-text h3{
+    font-size: 150%;
+    white-space: pre;
+  }
+  
 }
 
 @media (max-width:601px){
   .container .Quick_links{
     padding-left: 105px;
+  }
+  .banner-text h3{
+    font-size: 100%;
+    white-space: pre;
+  }
+  .banner-text h4{
+    font-size: 120%;
+    width: 100%;
+    padding-left: 40px;
+    margin-top: 20px;
+    white-space: nowrap;
+  }
+  .designin{
+    margin-top: 0;
+    height: 40vh;
+    padding: 20px;
+    max-height: 600px;
   }
 }
 
@@ -439,6 +456,49 @@ section .section-title {
     }
     .container .Quick_links{
       padding-left: 0%;
+    }
+   }
+   @media (max-width: 321px) {
+    .banner-text h4{
+      font-size: 120%;
+      color: #163246 !important;
+      font: italic;
+      width: 100%;
+      opacity: 0;
+      padding-left: 25px;
+      margin-top: 20px;
+      white-space: nowrap;
+    }
+    .designin{
+      margin-top: 0;
+      height: 50vh;
+      padding: 20px;
+      max-height: 600px;
+    }
+   }
+   @media (max-width: 241px) {
+     .banner-text{
+       margin:10px;
+     }
+    .banner-text h3{
+      font-size: 70%;
+      white-space: pre;
+    }
+    .banner-text h4{
+      font-size: 50%;
+      width: 100%;
+      padding-left: 40px;
+      margin-top: 20px;
+      white-space: nowrap;
+    }
+    .designin{
+      margin-top: 0;
+      height: 50vh;
+      padding: 20px;
+      max-height: 600px;
+    }
+    .mission h5{
+      font-size: 90%;
     }
    }
 
