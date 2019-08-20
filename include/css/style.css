@@ -179,7 +179,7 @@
     .bd-example{
       width: 100vw; }
   }
-   }
+   
    
   @media (max-width:767px){
       #footer h5 {
@@ -191,6 +191,7 @@
     .container .Quick_links{
       padding-left: 75px;
     }
+  }
     
   @media (max-width:603px){
   .container .Quick_links{
@@ -209,8 +210,3 @@
       padding-left: 0%;
     }
   }
-
-  
-     
-  
-    
