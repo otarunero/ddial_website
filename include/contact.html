@@ -86,70 +86,98 @@
 	  </nav>
 <!--nav bar ends -->
 
-		<section class="form-section">
-			<div class="container">
-				<div class="row contact">
-						<div class="col-md-6 ">
-							<h5>OFFICE DETAILS</h5>
-							<p>101-103 cele Bus stop, Ijede</br> Ikorodu,Lagos State.</p>
-							<p>No. 21 Fedral Housing Estate </br> Gonin Gora, Kaduna State. </p>
-							<p>207  Legacy House, Mogadishu <br>
-							Layout, Behind Ahmadu Bello way,<br> Kaduna State.</p>
-							<p>No. 28 Nupe street, Kubwa, Abuja.</p>
-							<p>No. 31 Market Road, Igarra Edo Stae</p>
-							<h5>Working Hours</h5>
-							<p>Mon -Fri : 8AM - 4PM</p>
-							</div>
-						<div class="col-md-6">
-							<h5>Call Us/Whatsapp</h5>
-							<p><a href="+2348036445715">+234 8036445715</a></p>
-							<p><a href="+2348154927283">+2348154927283</a></p>
-							<h5>Email</h5>
-							<p><a href="ddialcontactdesk@gmail.com">ddialcontactdesk@gmail.com</a></p>
+	<section class="form-section" >
+		<div class="container">
+			<div class="row contact">
+					<div class="col-md-6 ">
+						<h5>OFFICE DETAILS</h5>
+						<p>101-103 cele Bus stop, Ijede</br> Ikorodu,Lagos State.</p>
+						<p>No. 21 Fedral Housing Estate </br> Gonin Gora, Kaduna State. </p>
+						<p>207  Legacy House, Mogadishu </br>
+						Layout, Behind Ahmadu Bello way,</br> Kaduna State.</p>
+						<p>No. 28 Nupe street, Kubwa, Abuja.</p>
+						<p>No. 31 Market Road, Igarra Edo Stae</p>
+						<h5>Working Hours</h5>
+						<p>Mon -Fri : 8AM - 4PM</p>
 						</div>
-						
-				</div>
+					<div class="col-md-6">
+						<h5>Call Us/Whatsapp</h5>
+						<p><a href="+2348036445715">+234 8036445715</a></p>
+						<p><a href="+2348154927283">+2348154927283</a></p>
+						<h5>Email</h5>
+						<p><a href="ddialcontactdesk@gmail.com">ddialcontactdesk@gmail.com</a></p>
+					</div>
+					
+			</div>
+
+			<form action ="https://formspree.io/ddialcontactdesk@gmail.com" method="POST" class="needs-validation" novalidate >
 				<div class="row">
 					<div class="col-md-6">
 						<div class="form-row">
 							<div class="form-group col-md-6">
-								<input type="text" class="form-control" placeholder="Full name *">
+								<input type="text" name="name" class="form-control" id="validationCustom01" placeholder="Full name *" required>
 								</div>
+								
 								<div class="form-group col-md-6">
-								<input type="email" class="form-control" placeholder="Email Address *">
+								<input type="email" name="name" class="form-control" id="validationCustom02" placeholder="Email Address *" required>
 							</div>
+							<div class="invalid-feedback">
+								Please provide a valid Email!
+							  </div>
 						</div>
 
 						<div class="form-row">
 							<div class="form-group col-md-12">
-								<input type="Contact" class="form-control" placeholder="Contact Number *">
+								<input type="text" name="name" class="form-control" id="validationCustom04" placeholder="Subject *" required>
 							</div>
-						</div>
-						<div class="form-row">
-							<div class="form-group col-md-12">
-								<input type="text" class="form-control" placeholder="Subject *">
-							</div>
+							<div class="invalid-feedback">
+								Please provide a subject!
+							  </div>
 						</div>
 						
 					</div>
 					<div class="col-md-6  address">
-							<div class="form-row">
-									<div class="form-group col-md-12">
-										<textarea class="form-control" rows="6">Send a message</textarea>
-									</div>
-								</div>
-								<div class="form-row">
-									<div class="form-group col-md-12 text-center">
-										<button type="submit" class="btn btn-primary"><i class="fas fa-papper-plane"></i> Send message </button>
-									</div>
-								</div>
-						
+						<div class="form-row">
+							<div class="form-group col-md-12">
+								<textarea name="name" class="form-control"  id="validationCustom5" rows="7" required>Send a message</textarea>
+							</div>
+							<div class="valid-feedback">
+								Please provide a message!
+							  </div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-12 text-center">
+								<button type="submit" class="btn btn-primary"><i class="fas fa-papper-plane"></i> Send message </button>
+							</div>
+						</div>
 					</div>
-						
 				</div>
-			</div>
-		</section>
-		<!--MAP-->
+			</form>
+
+		</div>
+		<script>
+			// Example starter JavaScript for disabling form submissions if there are invalid fields
+			(function() {
+			  'use strict';
+			  window.addEventListener('load', function() {
+				// Fetch all the forms we want to apply custom Bootstrap validation styles to
+				var forms = document.getElementsByClassName('needs-validation');
+				// Loop over them and prevent submission
+				var validation = Array.prototype.filter.call(forms, function(form) {
+				  form.addEventListener('submit', function(event) {
+					if (form.checkValidity() === false) {
+					  event.preventDefault();
+					  event.stopPropagation();
+					}
+					form.classList.add('was-validated');
+				  }, false);
+				});
+			  }, false);
+			})();
+		</script>
+	</section>
+
+	
 	
 		<section>
 			<div class="container-fluid">
@@ -174,11 +202,11 @@
 					<h5>Quick links</h5>
 					<ul class="list-unstyled quick-links">
 						<li><a href="../index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="../include/about.html"><i class="fa fa-angle-double-right"></i>About Us</a></li>
-						<li><a href="../include/servies.html"><i class="fa fa-angle-double-right"></i>Our Service</a></li>
-						<li><a href="../include/Potfolio.html"><i class="fa fa-angle-double-right"></i>Our Project</a></li>
-						<li><a href="../include/teams.html"><i class="fa fa-angle-double-right"></i>Our Team</a></li>
-						<li><a href="../include/contact.html"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+						<li><a href="about.html"><i class="fa fa-angle-double-right"></i>About Us</a></li>
+						<li><a href="servies.html"><i class="fa fa-angle-double-right"></i>Our Service</a></li>
+						<li><a href="potfolio.html"><i class="fa fa-angle-double-right"></i>Our Project</a></li>
+						<li><a href="teams.html"><i class="fa fa-angle-double-right"></i>Our Team</a></li>
+						<li><a href="contact.html"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
@@ -186,7 +214,7 @@
 					<ul class="list-unstyled quick-links">
 						<li><a href="+2348036445715"><i class="fa fa-angle-double-right"></i>+2348036445715</a></li>
 						<li><a href="+2348154927283"><i class="fa fa-angle-double-right"></i>+2348154927283</a></li> 
-						<li><a href="ddialcontactdesk@gmail.com"><i class="fa fa-angle-double-right"></i>Email:ddialcontactdesk@gmail.com</a></li>
+						<li><a href="www.gmail.com@ddialcontactdesk@gmail.com"><i class="fa fa-angle-double-right"></i>Email:ddialcontactdesk@gmail.com</a></li>
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>101-103 cele Bus stop, Ijede, Ikorodu,Lagos State.</a></li>
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>No. 21 Fedral Housing Estate Gonin Gora, Kaduna.</a></li>
 					</ul>

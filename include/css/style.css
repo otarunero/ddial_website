@@ -62,7 +62,7 @@
     margin-left: 5%;
     margin-bottom: 50px;
     padding: 10px;
-  }
+  } 
   .bd-example .details{
   color: white;
   min-height: 6rem;
@@ -80,6 +80,7 @@
 }
 .image{
   max-width: 300px;
+  margin-top: 10px;
 }
   
   /* Footer */

@@ -77,7 +77,7 @@ body{
     .textwhite p{
         margin-top: 10%;
         font-size: 150%;
-        max-width: 400px;
+        max-width: 540px;
         margin: auto;
     }
     /*--banner ends---*/
@@ -92,12 +92,14 @@ body{
         color: #2e668e;
         text-transform: uppercase;
     }
+    
     .image{
       max-height: 500px;
       max-width: 400px;
     }
     .details{
       padding-right: 60px;
+      margin-top: 40px;
     }
    
     .w-100{
