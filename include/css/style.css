@@ -60,7 +60,7 @@
     max-height: 500px;
   }
   .bd-example{
-    width: 60vw; 
+    width: 914px; 
     height: fit-content;
     margin-left: 5%;
     margin-bottom: 50px;
@@ -73,7 +73,7 @@
   background-color:#2e668e;
 }
 .details{
-  widows: 100%;
+  width: 100%;
 }
 .gallery-block{
   margin-left: 30px;
