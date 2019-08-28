@@ -23,7 +23,7 @@ body{
   margin-right: 10px;
 }
 .column{
-  width: 280px;
+  width: 295px;
   line-height: 20px;
   margin-left: -50px;
 }
@@ -475,7 +475,57 @@ section .section-title {
       padding: 20px;
       max-height: 600px;
     }
+    .banner-text h3{
+      font-size: 200%;
+      color:#ffffff;
+      overflow: hidden;
+      border-right: solid 0 range; /*the type writer cursor R */
+      white-space: nowrap;
+      margin: 0 auto;
+      letter-spacing: .15em;
+      animation:
+        typing 1.5s steps(10, end),
+        blink-caret .2s step-end infinite;
+    }
+    
+    @keyframes typing{
+      from { width: 0}
+      to { width: 100% }
+    }
+    
+    @keyframes blink-carpet {
+      from, to { border-color: transparent }
+      50%{ border-color: orange;
+      }
+    }
    }
+   @media (max-width: 321px) {
+    .banner-text{
+      margin:10px;
+    }
+   .banner-text h3{
+     font-size: 70%;
+     white-space: pre;
+   }
+   .banner-text h4{
+     font-size: 50%;
+     width: 100%;
+     padding-left: 40px;
+     margin-top: 20px;
+     white-space: nowrap;
+   }
+   .designin{
+     margin-top: 0;
+     height: 50vh;
+     padding: 20px;
+     max-height: 600px;
+   }
+   .mission h5{
+     font-size: 90%;
+   }
+  }
+
+
    @media (max-width: 241px) {
      .banner-text{
        margin:10px;

@@ -23,7 +23,7 @@ body{
   margin-right: 10px;
 }
 .column{
-  width: 280px;
+  min-width: 295px;
   line-height: 20px;
   margin-left: -50px;
 }
