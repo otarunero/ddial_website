@@ -183,7 +183,11 @@
     .bd-example{
       width: 100vw; }
   }
-   
+  @media (max-width:769px){
+    .header-wrapper{
+      margin-bottom: 10px;
+    }
+   }
    
   @media (max-width:767px){
       #footer h5 {
@@ -194,6 +198,9 @@
     }
     .container .Quick_links{
       padding-left: 75px;
+    }
+    .header-wrapper{
+      margin-bottom: 10px;
     }
   }
     
@@ -214,3 +221,8 @@
       padding-left: 0%;
     }
   }
+  @media (max-width: 376px) {
+    .ddial_logo{
+      width: 200px;
+    }
+   }

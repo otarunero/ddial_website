@@ -230,7 +230,9 @@ body{
     .details{
       margin-top:30px;
     }
-    
+    .header-wrapper{
+      margin-bottom: 10px;
+    }
   }
   
   @media (max-width:603px){
@@ -261,6 +263,9 @@ body{
       max-height: 400px;
       max-width:315px;
     }
+      .ddial_logo{
+        width: 200px;
+      }
   }
   
   

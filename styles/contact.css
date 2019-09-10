@@ -1,5 +1,4 @@
 
-
 body{
     background-color: rgb(238, 247, 252);
   }
@@ -171,7 +170,11 @@ body{
       padding-left: 75px;
     }
    }
-   
+   @media (max-width:769px){
+    .header-wrapper{
+      margin-bottom: 10px;
+    }
+   }
   @media (max-width:767px){
       #footer h5 {
       padding-left: 0;
@@ -182,10 +185,16 @@ body{
     .container .Quick_links{
       padding-left: 125px;
     }
+    .header-wrapper{
+      margin-bottom: 10px;
+    }
   }
   @media (max-width:603px){
   .container .Quick_links{
     padding-left: 108px;
+  }
+  .header-wrapper{
+    margin-bottom: 10px;
   }
 }
 
@@ -199,8 +208,15 @@ body{
     .container .Quick_links{
       padding-left: 0%;
     }
+    .header-wrapper{
+      margin-bottom: 10px;
+    }
   }
-
+  @media (max-width: 376px) {
+    .ddial_logo{
+      width: 200px;
+    }
+   }
   
   
      

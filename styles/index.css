@@ -213,9 +213,9 @@ color: #2e668e;
 */
 .service{
   min-width: 300px;
-  -moz-box-shadow: 1px 1px 1px 1px #2e668e;
-  -webkit-box-shadow: 1px 1px 1px 1px #2e668e;
-  box-shadow:         1px 1px 1px 1px #2e668e;
+  -moz-box-shadow: 1px 1px 3px 1px #000000;
+  -webkit-box-shadow: 1px 1px 1px 1px #000000;
+  box-shadow:         5px 10px 18px #888888;
 }
 
 .card-title{
@@ -389,6 +389,10 @@ section .section-title {
       margin-left: 0;
       margin-top: auto;
     }
+    .service{
+      margin-top: 10px;
+      max-width: 300px;
+    }
  }
 
 @media (max-width:768px){
@@ -405,7 +409,12 @@ section .section-title {
     font-size: 150%;
     white-space: pre;
   }
-  
+  .header-wrapper{
+    margin-bottom: 10px;
+  }
+  .service{
+    margin-top: 10px;
+  }
 }
 
 @media (max-width:601px){
@@ -428,6 +437,9 @@ section .section-title {
     height: 40vh;
     padding: 20px;
     max-height: 600px;
+  }
+  .header-wrapper{
+    margin-bottom: 10px;
   }
 }
 
@@ -457,7 +469,16 @@ section .section-title {
     .container .Quick_links{
       padding-left: 0%;
     }
+    .header-wrapper{
+      margin-bottom: 10px;
+    }
    }
+   @media (max-width: 376px) {
+    .ddial_logo{
+      width: 200px;
+    }
+   }
+
    @media (max-width: 321px) {
     .banner-text h4{
       font-size: 120%;
@@ -487,6 +508,7 @@ section .section-title {
         typing 1.5s steps(10, end),
         blink-caret .2s step-end infinite;
     }
+    
     
     @keyframes typing{
       from { width: 0}

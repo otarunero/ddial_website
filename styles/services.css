@@ -6,7 +6,7 @@ body{
   .header-wrapper{
     margin-top: 10px;
   }
-  .ddial_logo{
+  .ddial_logo{ 
     height: 50px;
     margin:0;
   }
@@ -197,7 +197,11 @@ body{
       padding-left: 75px;
     }
    }
-   
+   @media (max-width:769px){
+    .header-wrapper{
+      margin-bottom: 10px;
+    }
+   }
   @media (max-width:767px){
       #footer h5 {
       padding-left: 0;
@@ -207,6 +211,9 @@ body{
     }
     .container .Quick_links{
       padding-left: 125px;
+    }
+    .header-wrapper{
+      margin-bottom: 10px;
     }
   }
   @media (max-width:603px){
@@ -225,6 +232,11 @@ body{
     .container .Quick_links{
       padding-left: 0%;
     }
+    @media (max-width: 376px) {
+      .ddial_logo{
+        width: 200px;
+      }
+     }
   }
 
   
